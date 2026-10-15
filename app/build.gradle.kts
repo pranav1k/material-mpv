@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.mpvcompose"
+    namespace = "com.materialmpv"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.mpvcompose"
+        applicationId = "com.materialmpv"
         minSdk = 24
         targetSdk = 35
         versionCode = 1

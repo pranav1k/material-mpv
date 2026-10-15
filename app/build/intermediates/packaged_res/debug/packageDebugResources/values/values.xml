@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">MPV Compose</string>
+    <string name="app_name">Material MPV</string>
     <string name="enter_url">Stream URL</string>
     <string name="fast_forward_10s">Fast Forward 10s</string>
     <string name="open_file">Open Video File</string>
     <string name="pause">Pause</string>
     <string name="play">Play</string>
     <string name="rewind_10s">Rewind 10s</string>
-    <style name="Theme.MpvCompose" parent="android:Theme.Material.Light.NoActionBar">
+    <style name="Theme.MaterialMpv" parent="android:Theme.Material.Light.NoActionBar">
         <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="android:navigationBarColor">@android:color/transparent</item>
         <item name="android:windowLightStatusBar">false</item>

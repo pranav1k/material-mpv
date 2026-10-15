@@ -1,6 +1,6 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.example.mpvcompose"
+3    package="com.materialmpv"
 4    android:versionCode="1"
 5    android:versionName="1.0.0" >
 6
@@ -26,12 +26,12 @@
 17
 18    <permission
 18-->[androidx.core:core:1.13.1] /home/raged/.gradle/caches/8.14.2/transforms/6da01543b9704d513a635839173797e3/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
-19        android:name="com.example.mpvcompose.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+19        android:name="com.materialmpv.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
 19-->[androidx.core:core:1.13.1] /home/raged/.gradle/caches/8.14.2/transforms/6da01543b9704d513a635839173797e3/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
 20        android:protectionLevel="signature" />
 20-->[androidx.core:core:1.13.1] /home/raged/.gradle/caches/8.14.2/transforms/6da01543b9704d513a635839173797e3/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
 21
-22    <uses-permission android:name="com.example.mpvcompose.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+22    <uses-permission android:name="com.materialmpv.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 22-->[androidx.core:core:1.13.1] /home/raged/.gradle/caches/8.14.2/transforms/6da01543b9704d513a635839173797e3/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
 22-->[androidx.core:core:1.13.1] /home/raged/.gradle/caches/8.14.2/transforms/6da01543b9704d513a635839173797e3/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
 23
@@ -55,15 +55,15 @@
 33-->/home/raged/Documents/stuff/mpvandroid/app/src/main/AndroidManifest.xml:13:9-61
 34        android:supportsRtl="true"
 34-->/home/raged/Documents/stuff/mpvandroid/app/src/main/AndroidManifest.xml:14:9-35
-35        android:theme="@style/Theme.MpvCompose"
-35-->/home/raged/Documents/stuff/mpvandroid/app/src/main/AndroidManifest.xml:15:9-48
+35        android:theme="@style/Theme.MaterialMpv"
+35-->/home/raged/Documents/stuff/mpvandroid/app/src/main/AndroidManifest.xml:15:9-49
 36        android:versionCode="1"
 36-->[io.github.abdallahmehiz:mpv-android-lib:0.1.9] /home/raged/.gradle/caches/8.14.2/transforms/c64e8b390c05ea4f3c9decd2a1794f53/transformed/mpv-android-lib-0.1.9/AndroidManifest.xml:9:9-32
 37        android:versionName="1.0" >
 37-->[io.github.abdallahmehiz:mpv-android-lib:0.1.9] /home/raged/.gradle/caches/8.14.2/transforms/c64e8b390c05ea4f3c9decd2a1794f53/transformed/mpv-android-lib-0.1.9/AndroidManifest.xml:10:9-34
 38        <activity
 38-->/home/raged/Documents/stuff/mpvandroid/app/src/main/AndroidManifest.xml:18:9-44:20
-39            android:name="com.example.mpvcompose.MainActivity"
+39            android:name="com.materialmpv.MainActivity"
 39-->/home/raged/Documents/stuff/mpvandroid/app/src/main/AndroidManifest.xml:19:13-41
 40            android:configChanges="orientation|screenSize|screenLayout|smallestScreenSize|keyboardHidden|keyboard|navigation"
 40-->/home/raged/Documents/stuff/mpvandroid/app/src/main/AndroidManifest.xml:21:13-126
@@ -129,7 +129,7 @@
 70-->[androidx.emoji2:emoji2:1.3.0] /home/raged/.gradle/caches/8.14.2/transforms/6fbfdf322055b39ad345e65f7a68deea/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
 71            android:name="androidx.startup.InitializationProvider"
 71-->[androidx.emoji2:emoji2:1.3.0] /home/raged/.gradle/caches/8.14.2/transforms/6fbfdf322055b39ad345e65f7a68deea/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
-72            android:authorities="com.example.mpvcompose.androidx-startup"
+72            android:authorities="com.materialmpv.androidx-startup"
 72-->[androidx.emoji2:emoji2:1.3.0] /home/raged/.gradle/caches/8.14.2/transforms/6fbfdf322055b39ad345e65f7a68deea/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
 73            android:exported="false" >
 73-->[androidx.emoji2:emoji2:1.3.0] /home/raged/.gradle/caches/8.14.2/transforms/6fbfdf322055b39ad345e65f7a68deea/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37

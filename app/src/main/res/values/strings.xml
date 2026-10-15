@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MPV Compose</string>
+    <string name="app_name">Material MPV</string>
     <string name="open_file">Open Video File</string>
     <string name="enter_url">Stream URL</string>
     <string name="play">Play</string>

@@ -33508,6 +33508,8 @@ com.example.mpvcompose.presentation.player.GestureState:
 com.example.mpvcompose.presentation.player.GestureType:
     public static kotlin.enums.EnumEntries getEntries()
 com.example.mpvcompose.presentation.player.PlayerViewModel:
+    public final kotlinx.coroutines.flow.StateFlow getDuration()
+    public final kotlinx.coroutines.flow.StateFlow getPosition()
     public final void hideControls()
     public static synthetic void playFile$default(com.example.mpvcompose.presentation.player.PlayerViewModel,java.lang.String,java.lang.String,int,java.lang.Object)
     public final void showControls()
@@ -41974,7 +41976,7 @@ androidx.collection.LruCache:
     public static void safeSizeOf(java.lang.Object,java.lang.Object)
     public static int sizeOf()
     public final void trimToSize(int)
-androidx.collection.MutableFloatSet$$InternalSyntheticThrowCCEIfNotNull$320$43182fb1594507a514bf18492a0543eba5365d3c2285497da49e3ee6a9723e21$0
+androidx.collection.MutableFloatSet$$InternalSyntheticThrowCCEIfNotNull$321$43182fb1594507a514bf18492a0543eba5365d3c2285497da49e3ee6a9723e21$0
 androidx.collection.MutableFloatSet
 androidx.collection.MutableIntIntMap$$InternalSyntheticBackport$1$15e6104ff01201a6d281f1a20f2f41326c8b1162e7d385980a10e8baa0db7760$0
 androidx.collection.MutableIntIntMap:
@@ -44879,7 +44881,7 @@ androidx.compose.foundation.text.BasicTextFieldKt$DefaultTextFieldDecorator$1
 androidx.compose.foundation.text.BasicTextFieldKt:
     public static final androidx.compose.foundation.text.BasicTextFieldKt$DefaultTextFieldDecorator$1 DefaultTextFieldDecorator
     public static final long MinTouchTargetSizeForHandles
-androidx.compose.foundation.text.BasicTextKt$$InternalSyntheticThrowCCEIfNotNull$156$acc2cacd4ea2a218657d54aa42c2574787ccfa6ccac7a54bf5ec0516e0c9b354$0
+androidx.compose.foundation.text.BasicTextKt$$InternalSyntheticThrowCCEIfNotNull$157$acc2cacd4ea2a218657d54aa42c2574787ccfa6ccac7a54bf5ec0516e0c9b354$0
 androidx.compose.foundation.text.BasicTextKt$BasicText$1:
     public final void invoke$2()
 androidx.compose.foundation.text.BasicTextKt$BasicText$selectionController$selectableId$1$1
@@ -52306,8 +52308,8 @@ androidx.compose.ui.node.AlignmentLinesOwner:
     public abstract java.util.HashMap calculateAlignmentLines()
 androidx.compose.ui.node.BackwardsCompatNode$$InternalSyntheticThrowCCEIfNotNull$11$3e260ccdb2c62e0fa7052269f322ebc39114f92dab6192c0103e9ce37415b129$0
 androidx.compose.ui.node.BackwardsCompatNode$$InternalSyntheticThrowCCEIfNotNull$11$960aa321f39fe54effb9db94d7d8aa5ecac48931e4df04ad2884efda5987534e$0
-androidx.compose.ui.node.BackwardsCompatNode$$InternalSyntheticThrowCCEIfNotNull$169$6e0e3aa2ed280a3d49d3bbcc500b2b3ddb88cc774afd0ad6d0d6e0f23aef2b2b$0
 androidx.compose.ui.node.BackwardsCompatNode$$InternalSyntheticThrowCCEIfNotNull$17$1bbee506f6362240f1860b33ac68794c363e08202581df0790b62074b11d4cc5$0
+androidx.compose.ui.node.BackwardsCompatNode$$InternalSyntheticThrowCCEIfNotNull$170$6e0e3aa2ed280a3d49d3bbcc500b2b3ddb88cc774afd0ad6d0d6e0f23aef2b2b$0
 androidx.compose.ui.node.BackwardsCompatNode$$InternalSyntheticThrowCCEIfNotNull$9$de7aebde9bd877a98ab4165c3867a69922610a85b79fae3b6c4b1fcd9a5bb241$0
 androidx.compose.ui.node.BackwardsCompatNode$$InternalSyntheticThrowCCEIfNotNull$9$e32183bba448871fc58a1bc1fa949ef05f96cf21d57e4acded7ba05d151c58ca$0
 androidx.compose.ui.node.BackwardsCompatNode$$InternalSyntheticThrowCCEIfNotNull$96$f333280ab3c2d798595492ec47c101aaac12127903b2bafb42c3b40243004989$0
@@ -52709,8 +52711,8 @@ androidx.compose.ui.node.LayoutNodeLayoutDelegate:
 androidx.compose.ui.node.LayoutTreeConsistencyChecker
 androidx.compose.ui.node.LookaheadAlignmentLines:
     static void <clinit>()
-androidx.compose.ui.node.LookaheadCapablePlaceable$$InternalSyntheticThrowCCEIfNotNull$163$6a3235e19958f3c800cf563be8a94368cab35ebf77150b804cfafd341b0cc97d$0
-androidx.compose.ui.node.LookaheadCapablePlaceable$$InternalSyntheticThrowCCEIfNotNull$163$6a3235e19958f3c800cf563be8a94368cab35ebf77150b804cfafd341b0cc97d$1
+androidx.compose.ui.node.LookaheadCapablePlaceable$$InternalSyntheticThrowCCEIfNotNull$164$6a3235e19958f3c800cf563be8a94368cab35ebf77150b804cfafd341b0cc97d$0
+androidx.compose.ui.node.LookaheadCapablePlaceable$$InternalSyntheticThrowCCEIfNotNull$164$6a3235e19958f3c800cf563be8a94368cab35ebf77150b804cfafd341b0cc97d$1
 androidx.compose.ui.node.LookaheadCapablePlaceable$Companion$onCommitAffectingRuler$1:
     public static void invoke$65()
 androidx.compose.ui.node.LookaheadCapablePlaceable$Companion
@@ -53172,10 +53174,10 @@ androidx.compose.ui.platform.AndroidComposeView:
     public static boolean startDrag-12SF9DM()
 androidx.compose.ui.platform.AndroidComposeViewAccessibilityDelegateCompat$$InternalSyntheticLambda$2$c2bede89dd047365e56b025d4954e8b2c5f680c5fc614d2ac7466fdcab6c6930$0:
     public final synthetic androidx.compose.ui.platform.AndroidComposeViewAccessibilityDelegateCompat$sortByGeometryGroupings$2 f$0
-androidx.compose.ui.platform.AndroidComposeViewAccessibilityDelegateCompat$$InternalSyntheticThrowCCEIfNotNull$209$429b99719615f26f70d2226afaa7db04a7ad05455862d34ba7d22b40d257d829$0
-androidx.compose.ui.platform.AndroidComposeViewAccessibilityDelegateCompat$$InternalSyntheticThrowCCEIfNotNull$212$5b888b6b8a06c044ebff764588480198db071ec6f17d78b86d37ef1d3b96bbab$0
-androidx.compose.ui.platform.AndroidComposeViewAccessibilityDelegateCompat$$InternalSyntheticThrowCCEIfNotNull$212$5b888b6b8a06c044ebff764588480198db071ec6f17d78b86d37ef1d3b96bbab$1
-androidx.compose.ui.platform.AndroidComposeViewAccessibilityDelegateCompat$$InternalSyntheticThrowCCEIfNotNull$214$a4d911081e3242b8e95ee28be239d6f311aa2e66f7281e89afd4af97344dfc3d$0
+androidx.compose.ui.platform.AndroidComposeViewAccessibilityDelegateCompat$$InternalSyntheticThrowCCEIfNotNull$210$429b99719615f26f70d2226afaa7db04a7ad05455862d34ba7d22b40d257d829$0
+androidx.compose.ui.platform.AndroidComposeViewAccessibilityDelegateCompat$$InternalSyntheticThrowCCEIfNotNull$213$5b888b6b8a06c044ebff764588480198db071ec6f17d78b86d37ef1d3b96bbab$0
+androidx.compose.ui.platform.AndroidComposeViewAccessibilityDelegateCompat$$InternalSyntheticThrowCCEIfNotNull$213$5b888b6b8a06c044ebff764588480198db071ec6f17d78b86d37ef1d3b96bbab$1
+androidx.compose.ui.platform.AndroidComposeViewAccessibilityDelegateCompat$$InternalSyntheticThrowCCEIfNotNull$215$a4d911081e3242b8e95ee28be239d6f311aa2e66f7281e89afd4af97344dfc3d$0
 androidx.compose.ui.platform.AndroidComposeViewAccessibilityDelegateCompat$Api24Impl:
     public static final androidx.compose.ui.platform.AndroidComposeViewAccessibilityDelegateCompat$Api24Impl INSTANCE
     static void <clinit>()
@@ -53513,7 +53515,7 @@ androidx.compose.ui.platform.OutlineResolver:
     public static void updateCacheWithRect()
     public static void updateCacheWithRoundRect()
 androidx.compose.ui.platform.PlatformTextInputMethodRequest
-androidx.compose.ui.platform.PlatformTextInputModifierNodeKt$$InternalSyntheticThrowCCEIfNotNull$196$2ed3c0b113b81a457a962d97ce7e17b96d3c42f6f70edfec8b9b2fe9251b3070$0
+androidx.compose.ui.platform.PlatformTextInputModifierNodeKt$$InternalSyntheticThrowCCEIfNotNull$197$2ed3c0b113b81a457a962d97ce7e17b96d3c42f6f70edfec8b9b2fe9251b3070$0
 androidx.compose.ui.platform.PlatformTextInputModifierNodeKt$LocalChainedPlatformTextInputInterceptor$1:
     public static void invoke$73()
 androidx.compose.ui.platform.PlatformTextInputSession:
@@ -56737,7 +56739,7 @@ androidx.lifecycle.ProcessLifecycleOwner:
     public static void dispatchPauseIfNeeded$lifecycle_process_release()
     public final void dispatchStopIfNeeded$lifecycle_process_release()
 androidx.lifecycle.ReportFragment$ActivityInitializationListener
-androidx.lifecycle.ReportFragment$Companion$$InternalSyntheticThrowCCEIfNotNull$218$6606f6a9d6c00feabd13f693204c7c685bcfd577a1c056fdbb01af5d22a24ba7$0
+androidx.lifecycle.ReportFragment$Companion$$InternalSyntheticThrowCCEIfNotNull$219$6606f6a9d6c00feabd13f693204c7c685bcfd577a1c056fdbb01af5d22a24ba7$0
 androidx.lifecycle.ReportFragment$Companion:
     public static androidx.lifecycle.ReportFragment get()
 androidx.lifecycle.ReportFragment$LifecycleCallbacks$Companion:
@@ -57183,21 +57185,31 @@ com.example.mpvcompose.presentation.player.PlayerScreenKt:
 com.example.mpvcompose.presentation.player.PlayerViewModel$WhenMappings
 com.example.mpvcompose.presentation.player.PlayerViewModel$resetAutoHideTimer$1:
     public final java.lang.Object invoke(kotlinx.coroutines.CoroutineScope,kotlin.coroutines.Continuation)
+com.example.mpvcompose.presentation.player.PlayerViewModel$startPositionSync$1:
+    public final java.lang.Object invoke(kotlinx.coroutines.CoroutineScope,kotlin.coroutines.Continuation)
+com.example.mpvcompose.presentation.player.PlayerViewModel$updateDuration$1:
+    public int label
+    public final java.lang.Object invoke(kotlinx.coroutines.CoroutineScope,kotlin.coroutines.Continuation)
 com.example.mpvcompose.presentation.player.PlayerViewModel$updateGestureState$1:
+    public final java.lang.Object invoke(kotlinx.coroutines.CoroutineScope,kotlin.coroutines.Continuation)
+com.example.mpvcompose.presentation.player.PlayerViewModel$updatePosition$1:
+    public int label
     public final java.lang.Object invoke(kotlinx.coroutines.CoroutineScope,kotlin.coroutines.Continuation)
 com.example.mpvcompose.presentation.player.PlayerViewModel:
     public static final int $stable
+    public final kotlinx.coroutines.flow.StateFlow duration
+    public final kotlinx.coroutines.flow.StateFlow position
     static void <clinit>()
     public static void adjustBrightness()
     public static void adjustVolume()
     public static kotlinx.coroutines.flow.StateFlow getAspectMode()
     public static kotlinx.coroutines.flow.StateFlow getAudioTracks()
     public static kotlinx.coroutines.flow.StateFlow getControlsVisible()
+    public static float getCurrentPosition()
     public static kotlinx.coroutines.flow.StateFlow getCurrentTitle()
-    public static kotlinx.coroutines.flow.StateFlow getDuration()
     public static kotlinx.coroutines.flow.StateFlow getGestureState()
-    public static kotlinx.coroutines.flow.StateFlow getPosition()
     public static kotlinx.coroutines.flow.StateFlow getSubtitleTracks()
+    public static float getTotalDuration()
     public static kotlinx.coroutines.flow.StateFlow getVideoAspect()
     public static kotlinx.coroutines.flow.StateFlow isBuffering()
     public static kotlinx.coroutines.flow.StateFlow isPaused()
@@ -57206,6 +57218,8 @@ com.example.mpvcompose.presentation.player.PlayerViewModel:
     public static void seekTo()
     public static void selectAudioTrack()
     public static void selectSubtitleTrack()
+    public static void setCurrentPosition()
+    public static void setTotalDuration()
     public static void showSeekFeedback()
     public static void toggleAspectMode()
     public static void toggleControls()
@@ -57809,7 +57823,7 @@ kotlinx.coroutines.CoroutineExceptionHandler:
 kotlinx.coroutines.CoroutineExceptionHandlerKt:
     public static final java.lang.Throwable handlerException(java.lang.Throwable,java.lang.Throwable)
 kotlinx.coroutines.CoroutineId$$InternalSyntheticThrowCCEIfNotNull$30$db4fcf294f73e0414b61d779f72a560fad56831e560e6b71def36fecaf64a8d1$0
-kotlinx.coroutines.CoroutineId$$InternalSyntheticThrowCCEIfNotNull$320$a7d8b984f14ef6811fc36f0d030a1c8a7f27075d192601697212118d266ca07a$0
+kotlinx.coroutines.CoroutineId$$InternalSyntheticThrowCCEIfNotNull$321$a7d8b984f14ef6811fc36f0d030a1c8a7f27075d192601697212118d266ca07a$0
 kotlinx.coroutines.CoroutineId$Key
 kotlinx.coroutines.CoroutineId
 kotlinx.coroutines.CoroutineName:
@@ -58184,7 +58198,7 @@ kotlinx.coroutines.flow.ReadonlyStateFlow:
 kotlinx.coroutines.flow.SafeFlow:
     public static java.lang.Object collectSafely()
 kotlinx.coroutines.flow.SharedFlow
-kotlinx.coroutines.flow.SharedFlowImpl$$InternalSyntheticThrowCCEIfNotNull$189$8a81ae7abf994ef8d5da0c3a1e1fcc00bff1251b789a1cb954e12c66d854807b$0
+kotlinx.coroutines.flow.SharedFlowImpl$$InternalSyntheticThrowCCEIfNotNull$190$8a81ae7abf994ef8d5da0c3a1e1fcc00bff1251b789a1cb954e12c66d854807b$0
 kotlinx.coroutines.flow.SharedFlowImpl$WhenMappings
 kotlinx.coroutines.flow.SharedFlowImpl:
     public static void cancelEmitter()
@@ -58225,7 +58239,7 @@ kotlinx.coroutines.flow.StartedWhileSubscribed$command$1:
 kotlinx.coroutines.flow.StartedWhileSubscribed$command$2:
     public int label
     public final java.lang.Object invoke$46()
-kotlinx.coroutines.flow.StateFlowImpl$$InternalSyntheticThrowCCEIfNotNull$189$f1d1f40a1c8fc04c0a8d71575b6c25dc238f9224ed939db2b509a92e2c81cbda$0
+kotlinx.coroutines.flow.StateFlowImpl$$InternalSyntheticThrowCCEIfNotNull$190$f1d1f40a1c8fc04c0a8d71575b6c25dc238f9224ed939db2b509a92e2c81cbda$0
 kotlinx.coroutines.flow.StateFlowImpl:
     public final boolean compareAndSet(androidx.compose.runtime.external.kotlinx.collections.immutable.PersistentSet,androidx.compose.runtime.external.kotlinx.collections.immutable.implementations.persistentOrderedSet.PersistentOrderedSet)
     public static kotlinx.coroutines.flow.StateFlowSlot createSlot()
@@ -58400,7 +58414,7 @@ kotlinx.coroutines.internal.SystemPropsKt:
     public static final boolean systemProp(java.lang.String,boolean)
     public static synthetic long systemProp$default(java.lang.String,long)
 kotlinx.coroutines.internal.SystemPropsKt__SystemProps_commonKt
-kotlinx.coroutines.internal.ThreadContextKt$$InternalSyntheticThrowCCEIfNotNull$320$7c661674ba55b64cfe60deef36cf7e9a62bb95fc2a8f0b63be336db8c26a2201$0
+kotlinx.coroutines.internal.ThreadContextKt$$InternalSyntheticThrowCCEIfNotNull$321$7c661674ba55b64cfe60deef36cf7e9a62bb95fc2a8f0b63be336db8c26a2201$0
 kotlinx.coroutines.internal.ThreadLocalKt
 kotlinx.coroutines.internal.ThreadSafeHeap:
     public final kotlinx.coroutines.EventLoopImplBase$DelayedTask firstImpl()

@@ -21,5 +21,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "mpvandroid"
+rootProject.name = "material-mpv"
 include(":app")

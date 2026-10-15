@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.mpvcompose.app-mergeDebugResources-51:/values-pt/values-pt.xml",
+            "outputFile": "com.materialmpv.app-mergeDebugResources-51:/values-pt/values-pt.xml",
             "map": [
                 {
                     "source": "/home/raged/.gradle/caches/8.14.2/transforms/8bade6d92e9bbd9485b95cadcf6d84b9/transformed/ui-release/res/values-pt/values-pt.xml",

@@ -134,8 +134,8 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] /home/raged/.gradle/caches/
 	android:allowBackup
 		ADDED from /home/raged/Documents/stuff/mpvandroid/app/src/main/AndroidManifest.xml:10:9-35
 	android:theme
-		ADDED from /home/raged/Documents/stuff/mpvandroid/app/src/main/AndroidManifest.xml:15:9-48
-activity#com.example.mpvcompose.MainActivity
+		ADDED from /home/raged/Documents/stuff/mpvandroid/app/src/main/AndroidManifest.xml:15:9-49
+activity#com.materialmpv.MainActivity
 ADDED from /home/raged/Documents/stuff/mpvandroid/app/src/main/AndroidManifest.xml:18:9-44:20
 	android:exported
 		ADDED from /home/raged/Documents/stuff/mpvandroid/app/src/main/AndroidManifest.xml:20:13-36
@@ -349,7 +349,7 @@ ADDED from [androidx.core:core:1.13.1] /home/raged/.gradle/caches/8.14.2/transfo
 		ADDED from [androidx.core:core:1.13.1] /home/raged/.gradle/caches/8.14.2/transforms/6da01543b9704d513a635839173797e3/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
 	android:name
 		ADDED from [androidx.core:core:1.13.1] /home/raged/.gradle/caches/8.14.2/transforms/6da01543b9704d513a635839173797e3/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
-permission#com.example.mpvcompose.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+permission#com.materialmpv.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.13.1] /home/raged/.gradle/caches/8.14.2/transforms/6da01543b9704d513a635839173797e3/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
 		ADDED from [androidx.core:core:1.13.1] /home/raged/.gradle/caches/8.14.2/transforms/6da01543b9704d513a635839173797e3/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
@@ -359,7 +359,7 @@ uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.13.1] /home/raged/.gradle/caches/8.14.2/transforms/6da01543b9704d513a635839173797e3/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
 	android:name
 		ADDED from [androidx.core:core:1.13.1] /home/raged/.gradle/caches/8.14.2/transforms/6da01543b9704d513a635839173797e3/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
-uses-permission#com.example.mpvcompose.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+uses-permission#com.materialmpv.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.13.1] /home/raged/.gradle/caches/8.14.2/transforms/6da01543b9704d513a635839173797e3/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
 	android:name
 		ADDED from [androidx.core:core:1.13.1] /home/raged/.gradle/caches/8.14.2/transforms/6da01543b9704d513a635839173797e3/transformed/core-1.13.1/AndroidManifest.xml:26:22-94

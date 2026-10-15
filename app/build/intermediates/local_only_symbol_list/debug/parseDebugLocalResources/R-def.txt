@@ -8,4 +8,4 @@ string open_file
 string pause
 string play
 string rewind_10s
-style Theme.MpvCompose
+style Theme.MaterialMpv
