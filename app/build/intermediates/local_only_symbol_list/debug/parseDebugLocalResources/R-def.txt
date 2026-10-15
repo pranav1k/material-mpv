@@ -1,0 +1,11 @@
+R_DEF: Internal format may change without notice
+local
+drawable ic_launcher_foreground
+string app_name
+string enter_url
+string fast_forward_10s
+string open_file
+string pause
+string play
+string rewind_10s
+style Theme.MpvCompose

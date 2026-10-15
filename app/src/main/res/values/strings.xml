@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MPV Compose</string>
+    <string name="open_file">Open Video File</string>
+    <string name="enter_url">Stream URL</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="rewind_10s">Rewind 10s</string>
+    <string name="fast_forward_10s">Fast Forward 10s</string>
+</resources>

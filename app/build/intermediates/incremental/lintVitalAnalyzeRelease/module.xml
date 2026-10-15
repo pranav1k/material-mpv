@@ -1,0 +1,18 @@
+<lint-module
+    format="1"
+    dir="/home/raged/Documents/stuff/mpvandroid/app"
+    name=":app"
+    type="APP"
+    maven="mpvandroid:app:unspecified"
+    agpVersion="8.6.1"
+    buildFolder="build"
+    bootClassPath="/home/raged/Android/Sdk/platforms/android-35/android.jar:/home/raged/Android/Sdk/build-tools/34.0.0/core-lambda-stubs.jar"
+    javaSourceLevel="17"
+    compileTarget="android-35">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>
